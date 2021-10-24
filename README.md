@@ -1,89 +1,54 @@
-# 04 Web APIs: Code Quiz
 
-## Your Task
+# Title
 
-At some point in your journey to become a full-stack web developer, you’ll likely be asked to complete a coding assessment&mdash;perhaps as part of an interview process. A typical coding assessment includes both multiple-choice questions and interactive coding challenges. 
+Code Quiz
 
-To help familiarize you with these tests and allow you to use the skills covered in this unit, this week’s homework invites you to build a timed coding quiz with multiple-choice questions. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean, polished, and responsive user interface. 
+## Description
 
-This week’s coursework will equip you with all the skills you need to succeed in this assignment.
+An application created to show review questions about javascript and everything that we learned so far from the Bootcamp
 
-## User Story
+## Table of Contents
 
-```
-AS A coding boot camp student
-I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
-SO THAT I can gauge my progress compared to my peers
-```
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Credits](#credits)
+  - [License](#license)
 
-## Acceptance Criteria
 
-```
-GIVEN I am taking a code quiz
-WHEN I click the start button
-THEN a timer starts and I am presented with a question
-WHEN I answer a question
-THEN I am presented with another question
-WHEN I answer a question incorrectly
-THEN time is subtracted from the clock
-WHEN all questions are answered or the timer reaches 0
-THEN the game is over
-WHEN the game is over
-THEN I can save my initials and my score
-```
+## Installation
 
-## Mock-Up
+What are the steps required to install your project ? Provide a step - by - step description of how to get the development environment running.
 
-The following animation demonstrates the application functionality:
+There is no installation for this project
 
-![A user clicks through an interactive coding quiz, then enters initials to save the high score before resetting and starting over.](./Assets/04-web-apis-homework-demo.gif)
+## Usage
 
-## Grading Requirements
+When launch the website. Click Start button to start the quiz. You will earn one point for every right answer and lose 5 seconds for every wrong answer. At the end, there will be a box that show your score and remaining time. Insert your initial and click save score to save it to local storage.
 
-This homework is graded based on the following criteria: 
+## Credits
 
-### Technical Acceptance Criteria: 40%
+undefined
 
-* Satisfies all of the preceding acceptance criteria.
+## License
 
-### Deployment: 32%
+None
 
-* Application deployed at live URL.
+## Badges
 
-* Application loads with no errors.
 
-* Application GitHub URL submitted.
 
-* GitHub repository contains application code.
 
-### Application Quality: 15%
 
-* Application user experience is intuitive and easy to navigate.
+## Features
 
-* Application user interface style is clean and polished.
+JavaScript. HTML. CSS. 
 
-* Application resembles the mock-up functionality provided in the homework instructions.
 
-### Repository Quality: 13%
+## How to Contribute
 
-* Repository has a unique name.
+If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so.The[Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
 
-* Repository follows best practices for file structure and naming conventions.
+## Test
 
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+Alt B to open the html. Or click on the link.
 
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme file with description, screenshot, and link to deployed application.
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the functional, deployed application.
-
-* The URL of the GitHub repository, with a unique name and a readme describing the project.
-
----
-
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
