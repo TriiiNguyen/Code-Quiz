@@ -2,23 +2,23 @@
 //Array of Objects 
 var quizList = [
   {
-    questionText: 'Question 1',
-    answers: ['Answer 1', 'Answer 2', 'Answer 3', 'Answer 4'],
+    questionText: 'Question 1: Which of the following is a string?',
+    answers: ['Hello World', '69', 'false', '{===}'],
     correctAnswerIndex: 0
   },
   {
-    questionText: 'Question 2',
-    answers: ['Answer 1', 'Answer 2', 'Answer 3', 'Answer 4'],
+    questionText: 'Question 2: How to check if they are both true?',
+    answers: ['??', '||', '&&', '!!'],
     correctAnswerIndex: 2
   },
   {
-    questionText: 'Question 3',
-    answers: ['Answer 1', 'Answer 2', 'Answer 3', 'Answer 4'],
+    questionText: 'Question 3: What is used to check if one of two values is true?',
+    answers: ['&&', '!=', '===', '||'],
     correctAnswerIndex: 3
   },
   {
-    questionText: 'Question 4',
-    answers: ['Answer 1', 'Answer 2', 'Answer 3', 'Answer 4'],
+    questionText: 'How can you acces any element from document in javascript?',
+    answers: ['querySelector()', 'document.querySelectorAll()', 'getElementById()', 'querySelectorAll()'],
     correctAnswerIndex: 1
   },
 ]
@@ -121,19 +121,19 @@ function endQuiz() {
   scoreEl.textContent = playerScore;
 }
 
-function saveScore() {
-  var playerName =  document.getElementById(); 
+// function saveScore() {
+//   var playerName =  document.getElementById(); 
 
-  var newPlayeScore = { 
-    initials: playerName, 
-    score: playerScore; 
-  }
-  //Adding the new score to the exisiting playe score list 
-  previousScores.push(newPlayeScore); 
+//   var newPlayeScore = { 
+//     initials: playerName, 
+//     score: playerScore; 
+//   }
+//   //Adding the new score to the exisiting playe score list 
+//   previousScores.push(newPlayeScore); 
 
-  //Save it to localstorage 
-  localStorage.setItem("playerScoreList", JSON.stringify(previousScores) ); 
-}
+//   //Save it to localstorage 
+//   localStorage.setItem("playerScoreList", JSON.stringify(previousScores) ); 
+// }
 
 
 
