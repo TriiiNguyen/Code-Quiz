@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/style.css">
+  <title>Coding Quiz Challenge</title>
+</head>
+
+<body>
+  <section id="timeContainer" class=" hide">
+    <h3>Time Remaining: <span id="clock">100</span> </h3>
+  </section>
+  <section id="startScreen" >
+    <h1>Coding Quiz Challenge</h1>
+    <p> Game Rules:
+
+    </p>
+    <button id="startButton">Start</button>
+  </section>
+  <section id="questionContainer" class=" hide">
+    <h2 id="questionhere">Sample question</h2>
+    <button id="Option1">Option 1</button>
+    <button id="Option2">Option 2</button>
+    <button id="Option3">Option 3</button>
+    <button id="Option4">Option 4</button>
+  </section>
+  <section id="scoreboard" class=" hide">
+    <h3>All Done !!!</h3>
+    <label>You Score is :<span id="displayScore">100</span></label>
+    <input type="text" max="3" placeholder="Please enter youor initals" id="playerName" /> 
+    <button id="submitScore">Submit Score</button>
+    <!--
+      input 
+      button submit 
+      savescore in localstorage 
+    -->
+  </section>
+  <script src="Assets/javascript.js"></script>
+</body>
+
+</html>
